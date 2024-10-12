@@ -45,7 +45,7 @@ const Consumer = () => {
           <tbody>
             {data?.map((record) => (
               <tr key={record._id}>
-                <td>{record.bloodGroup}</td>
+                <td className="s">{record.bloodGroup}</td>
                 <td>{record.inventoryType}</td>
                 <td>{record.quantity}</td>
                 <td>{record.email}</td>
