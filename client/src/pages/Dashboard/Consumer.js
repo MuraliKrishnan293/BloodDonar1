@@ -46,7 +46,7 @@ const Consumer = () => {
             {data?.map((record) => (
               <tr key={record._id}>
                 <td className="s">{record.bloodGroup}</td>
-                <td>{record.inventoryType}</td>
+                <td className="s">{record.inventoryType}</td>
                 <td>{record.quantity}</td>
                 <td>{record.email}</td>
                 <td>{moment(record.createdAt).format("DD/MM/YYYY hh:mm A")}</td>
